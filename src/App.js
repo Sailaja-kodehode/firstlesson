@@ -1,5 +1,5 @@
 // import logo from "./logo.svg";
-import "./App.css";
+// import "./App.css";
 import "./Components/Header";
 
 // function App() {
@@ -29,6 +29,8 @@ const App = () => {
       <h1>My Title</h1>
       <h3> My second header </h3>
       <p> My Paragraph </p>
+      {/* <button>{Button}</button>  */}
+      {/* button with a child Button component */}
     </div>
   );
 };
