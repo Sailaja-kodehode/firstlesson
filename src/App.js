@@ -3,8 +3,7 @@
 import "./Components/Header";
 import "./App.css";
 //component
-import CardUsingProps from "components/cardUsingProps/cardUsingProps";
-import cardUsingProps from "components/cardUsingProps";
+import CardUsingProps from "./Components/CardUsingProps/CardUsingProps.jsx";
 
 // function App() {
 //   return (
@@ -30,6 +29,8 @@ import cardUsingProps from "components/cardUsingProps";
 const App = () => {
   return (
     <div>
+      <CardUsingProps title="first webpage react" paragraph=" This page" />
+
       <h1>My First React </h1>
       <h3>Hi, I am Sailaja</h3>
       <p>

@@ -1,20 +1,13 @@
 //css
-import styles from "CardUsingProps.module.css";
-
-//library
-import styled from "Styled-component";
+import styles from "./CardUsingProps.module.css";
 
 const CardUsingProps = (props) => {
   const { title, paragraph } = props;
   return (
-    <article
-      id="MyFirstCard"
-      Style={{ color: " aqua", border: "2px, solid black" }}
-      className={styles.Wrapper}
-    >
+    <article id="MyFirstCard" className={styles.Wrapper}>
       <a href=""></a>
-      <h3> {title} </h3>
-      <p> {paragraph} </p>
+      <h3 style={{ backgroundColor: "aqua" }}> {title} </h3>
+      <p className={styles.wrapper}> {paragraph} </p>
     </article>
   );
 };
