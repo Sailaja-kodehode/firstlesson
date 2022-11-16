@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 //import Child from "./Child";
 //css
-//import styles from "./textInput.module.css";
+//import styles from "./GetInput.module.css";
 
 async function fetchData(callback) {
   const response = await fetch("https://catfact.ninja/facts");
@@ -12,13 +12,13 @@ async function fetchData(callback) {
 /**
  * A component that register changes and updates a display field
  */
-const TextInput = (props) => {
+const GetInput = (props) => {
   //const { data } = props;
-  //const [TextInput, setTextInput] = useState("");
+  //const [GetInput, setGetInput] = useState("");
   const [fetchedData, setFetchedData] = useState(null);
   //const handleChange = (event) => {
   //const newString = event.target.value;
-  //setTextInput(() => {
+  //setGetInput(() => {
   //return newString;
   //});
   //};
@@ -40,16 +40,16 @@ const TextInput = (props) => {
 //useEffect(() => {
 //fetch().then((res) => res.json("https://catfact.ninja/facts"));
 //console.log(res);
-//TextInput(res.data);
+//GetInput(res.data);
 //return (
 //<div>
 //<ul>
-//{TextInput.map((textInput) => (
-//<li key={textInput.id}>{textInput.title}</li>
+//{TextInput.map((GetInput) => (
+//<li key={textInput.id}>{GetInput.title}</li>
 //))}
 //</ul>
 //</div>
 //);
 //});
 //};
-export default TextInput;
+export default GetInput;

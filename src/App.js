@@ -1,8 +1,8 @@
 // import logo from "./logo.svg";
 // import "./App.css";
 import "./Components/Header.jsx";
-import TextInput from "./Components/TextInput.jsx";
-//import style from "./Components/textInput.modules.css";
+import GetInput from "./Components/GetInput.jsx";
+//import style from "./Components/GetInput.modules.css";
 
 // function App() {
 //   return (
@@ -31,7 +31,7 @@ const App = () => {
       <h1>My first Card</h1>
       <h3> My second card </h3>
       <h4> My Third Card </h4>
-      <TextInput />
+      <GetInput />
       {/* <button>{Button}</button>  */}
       {/* button with a child Button component */}
     </div>
