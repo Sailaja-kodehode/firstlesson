@@ -1,6 +1,6 @@
 // import Header from "./Header";
 
-const Header = (probs) => {
+const Header = (props) => {
   return <h1>Header</h1>;
 };
 

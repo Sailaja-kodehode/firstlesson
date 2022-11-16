@@ -1,6 +1,8 @@
 // import logo from "./logo.svg";
 // import "./App.css";
-import "./Components/Header";
+import "./Components/Header.jsx";
+import TextInput from "./Components/TextInput.jsx";
+//import style from "./Components/textInput.modules.css";
 
 // function App() {
 //   return (
@@ -14,7 +16,7 @@ import "./Components/Header";
 //           className="App-link"
 //           href="https://reactjs.org"
 //           target="_blank"
-//           rel="noopener noreferrer"
+//           rel="no opener no referrer"
 //         >
 //           Learn React
 //         </a>
@@ -26,9 +28,10 @@ import "./Components/Header";
 const App = () => {
   return (
     <div>
-      <h1>My Title</h1>
-      <h3> My second header </h3>
-      <p> My Paragraph </p>
+      <h1>My first Card</h1>
+      <h3> My second card </h3>
+      <h4> My Third Card </h4>
+      <TextInput />
       {/* <button>{Button}</button>  */}
       {/* button with a child Button component */}
     </div>
