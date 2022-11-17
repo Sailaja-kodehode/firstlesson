@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+.info {
+  color: #fa4299;
+  font-size: 20px;
+  padding-left: 0;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(#a445b4, #fa4299);
+}
