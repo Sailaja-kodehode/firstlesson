@@ -1,8 +1,15 @@
 // import logo from "./logo.svg";
 // import "./App.css";
-import Child from "./Components/Child.jsx";
-import "./Components/Header.jsx";
-import TextInput from "./Components/TextInput.jsx";
+import UseEffect from "./Components/Task/UseEffect";
+import Context from "./Context/Pokom";
+import Selector from "./Components/Task/Selector";
+//import DisplayWrapper from "./Components/Task/DisplayWrapper";
+import PokemonImageURL from "./Components/Task/ImageUrl";
+//import Display from "./Components/Task/Display";
+
+//import Child from "./Components/Child.jsx";
+//import "./Components/Header.jsx";
+//import TextInput from "./Components/TextInput.jsx";
 //import style from "./Components/GetInput.modules.css";
 
 // function App() {
@@ -29,9 +36,17 @@ import TextInput from "./Components/TextInput.jsx";
 const App = () => {
   return (
     <div>
-      <h1>About Cats</h1>
-      <TextInput />
-      <Child />
+      {/*<h1>About Cats</h1>*/}
+      <h2>Pokeman</h2>
+      {/* <TextInput /> */}
+      <UseEffect />
+      <PokemonImageURL />
+      {/*<Selector />*}
+
+      {/*<DisplayWrapper />*/}
+
+      {/*<Display />*/}
+      {/*<Child />*/}
       {/* <button>{Button}</button>  */}
       {/* button with a child Button component */}
     </div>

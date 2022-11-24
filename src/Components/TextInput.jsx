@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import Child from "./Child";
-//import "App.css";
+import "App.js";
 
 async function fetchData(callback) {
   const response = await fetch("https://catfact.ninja/facts");
