@@ -36,11 +36,29 @@
     transform: rotate(360deg);
   }
 }
-.info {
-  color: #fa4299;
+body {
   font-size: 20px;
   padding-left: 0;
   border: none;
   cursor: pointer;
+  margin: 0;
+  font-family: "Times New Roman, Times, serif";
+}
+
+div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: solid brown;
   background: linear-gradient(#a445b4, #fa4299);
+  color: white;
+  justify-content: center;
+}
+
+button {
+  color: aqua;
+  background: #282c34;
+}
+:hover button {
+  color: #a445b4;
 }

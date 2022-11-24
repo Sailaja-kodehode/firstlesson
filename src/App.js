@@ -1,5 +1,5 @@
 // import logo from "./logo.svg";
-// import "./App.css";
+import "./App.css";
 import UseEffect from "./Components/Task/UseEffect";
 import Context from "./Context/Pokom";
 import Selector from "./Components/Task/Selector";
