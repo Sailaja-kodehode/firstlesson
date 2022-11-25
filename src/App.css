@@ -61,4 +61,5 @@ button {
 }
 :hover button {
   color: #a445b4;
+  background-color: slateblue;
 }

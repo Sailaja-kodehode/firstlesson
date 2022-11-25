@@ -20,9 +20,8 @@ const PokemonImageURL = () => {
   return (
     <div>
       <h1>Pokemon</h1>
-
+      <button onClick={() => setPokemonID((oldID) => oldID - 1)}>Prev</button>
       <img src={pokemonData && pokemonData.sprites.front_default} />
-
       <button onClick={() => setPokemonID((oldID) => oldID + 1)}>Next</button>
     </div>
   );
